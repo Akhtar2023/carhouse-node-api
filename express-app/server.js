@@ -28,7 +28,7 @@ app.use(express.json());
 
 // Home Route
 app.get("/", (req, res) => {
-    res.send("<h1>Welcome to Car House API</h1>");
+    res.send("<h1>Welcome to Car House API - User API</h1>");
 });
 
 // Use Routes
